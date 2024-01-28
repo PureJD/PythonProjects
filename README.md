@@ -1,6 +1,6 @@
 # PythonProjects
 ### A collection of smaller projects programmed in Python. This collection has been added to a single repository to prevent clutter.
-![Hard at work](https://www.google.com/url?sa=i&url=https%3A%2F%2Fimgur.com%2Fgallery%2FBhP6oIP&psig=AOvVaw0VaNR-SPDdT2I80EZgzIOj&ust=1706537666529000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj9ja-igIQDFQAAAAAdAAAAABAJ)
+![Hard at work](https://cdn.openart.ai/uploads/image_7TtIuidn_1677315807717_512.webp)
 
 # Number Guessing Game
 ### - A game in which the program takes your name and a range of values. It then generates a random number between your values and you attempt to guess the answer.
