@@ -18,6 +18,9 @@
 #### - A simple program that will allow the user to build a to do list, delete entries and view the list.
 #### - This program utilises dictionaries and editing entries within them. The program has been arranged into functions and will check user input to ensure the requests are within the parameters of the information required prior to continuing. 
 
+# Micro Browser and Micro Server
+#### - Using Python Sockets import this browser will make a simple call to a website for the request of data.
+#### - Similar to the browser, the server will create a local server and display a simple message when contacted.
 
 
 
