@@ -22,6 +22,9 @@
 #### - Using Python Sockets import this browser will make a simple call to a website for the request of data.
 #### - Similar to the browser, the server will create a local server and display a simple message when contacted.
 
+# BandName generator
+#### - A program that will generate a band name using dictionaries of various word types and taking an input from the user. 
+
 
 
 
