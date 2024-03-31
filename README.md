@@ -27,6 +27,9 @@
 #### - A hangman game that utilises logic to allow the player to play through the game hangman. This game has the addition of ASCII art to improve the user experience. 
 ![Spinning loader](https://github.com/PureJD/PythonProjects/blob/main/hangman.png?raw=true)
 
+# Blackjack game
+#### - A Blackjack game that allows the player to hit and stick following reviewing their current hand. The logic handles wins, losses, when the dealer should and should not hit as well as calculating when the player obtains blackjack. The game is a foundational version of the logic. Additionally creating all individual cards and erasing them from the list as they are selected is possible.
+
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
 
