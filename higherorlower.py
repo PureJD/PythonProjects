@@ -1,8 +1,9 @@
 import random 
+import time
 
 #This game data and the ASCII images would be stores in seperate 
 #files and imported however they have been kept in a single file 
-#for the sake of storage in Github due to shared repository 
+#for the sake of storage on Github due to shared repository location 
 data = [
     {
         'name': 'Instagram',
@@ -327,22 +328,50 @@ vs = """
 """
 
 
-
+a = data[random.randint(0,49)]
 b = data[random.randint(0,49)]
 winner = ''
-a = data[random.randint(0,49)]
-score = 0 
+score = 0
+loop = True
+
+def score_updater():
+    global score
+    if guess == winner:
+        score += 1
+        return True
+    elif guess != winner:
+        print('Oh no! it seems you were incorrect!')
+        score = 0
+        return False
+    
+        
 
 
-
-while True:
+while loop == True:
     print(logo)
     print(f'                                                   score:{score}')
-    print(a['name'] + ', ' + b['description'] + ', ' + b['country'])
+    print(a['name'] + ', ' + a['description'] + ', ' + a['country'])
     print(vs)
     print(b['name'] + ', ' + b['description'] + ', ' + b['country'])
     guess = input('Who has more followers? Type "A" or "B": ').upper()
+    time.sleep(2)
+    print('The numbers were...')
+    print(a['name'] + ', ' + str(a['follower_count']))
+    print(b['name'] + ', ' + str(b['follower_count']))
+    time.sleep(2)
     if a['follower_count'] > b['follower_count']:
         winner = 'A'
     else:
-        winner = 'B' 
+        winner = 'B'
+    loop = score_updater()
+    if a['follower_count'] > b['follower_count']:
+        a = a
+    else:
+        a = b
+    b = data[random.randint(0,49)]
+    if b == a:
+            b = data[random.randint(0,49)]
+        
+    
+
+

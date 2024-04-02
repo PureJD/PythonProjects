@@ -30,6 +30,9 @@
 # Blackjack game
 #### - A Blackjack game that allows the player to hit and stick following reviewing their current hand. The logic handles wins, losses, when the dealer should and should not hit as well as calculating when the player obtains blackjack. The game is a foundational version of the logic. Additionally creating all individual cards and erasing them from the list as they are selected is possible.
 
+# Higher or Lower game
+#### - A simple game that takes the amount of followers people hold on instagram and compares them to another from a randomly selected list. If the user guesses correctly who holds to most followers, they score a point. This game could later be adapted to use a webscraping tool to randomly select instagram accounts and compare follower data in real time. 
+
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
 
