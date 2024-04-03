@@ -33,6 +33,22 @@
 # Higher or Lower game
 #### - A simple game that takes the amount of followers people hold on instagram and compares them to another from a randomly selected list. If the user guesses correctly who holds to most followers, they score a point. This game could later be adapted to use a webscraping tool to randomly select instagram accounts and compare follower data in real time. 
 
+# Coffee Machine Logic
+______________________________
+|                            |
+|     Coffee Menu            |
+|                            |
+|   1. Espresso    - $1.50   |
+|                            |
+|   2. Latte       - $2.50   |
+|                            |
+|   3. Cappuccino  - $3.00   |
+|                            |
+|____________________________|
+#### - The logic for a coffee machine to be functional. The program tracks the ingredients needed for orders, the cost, the amount paid and refunds when required. The coffee machine will only create drinks if it is able to do so with what it has, the machine will inform the user which ingredient is low. The machine will also submit a user report when prompted and turn off when asked to do so. 
+
+
+
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
 
