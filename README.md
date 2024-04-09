@@ -36,7 +36,12 @@
 # Coffee Machine Logic
 #### - The logic for a coffee machine to be functional. The program tracks the ingredients needed for orders, the cost, the amount paid and refunds when required. The coffee machine will only create drinks if it is able to do so with what it has, the machine will inform the user which ingredient is low. The machine will also submit a user report when prompted and turn off when asked to do so. 
 
-
+# Turtle Racing (OOP)
+#### - This is a game created within the Turtle library which allows the user to bet on which turtle will cross the line first. The project uses object-oriented programming. 
+![turtle1](https://github.com/PureJD/PythonProjects/blob/main/turtle_race_img_1.png?raw=true)
+#### - The user is prompted to pick a colour from a list of provided colours.
+![turtle2](https://github.com/PureJD/PythonProjects/blob/main/turtle_race_img_2.png?raw=true)
+#### - The turtles objects are then created within a loop with seperate attributes and proceed across the screen at random intervals. If the user guessed the correct turtle to pass the screen first, the user wins. 
 
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
