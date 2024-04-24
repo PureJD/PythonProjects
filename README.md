@@ -43,6 +43,9 @@
 ![turtle2](https://github.com/PureJD/PythonProjects/blob/main/turtle_race_img_2.png?raw=true)
 #### - The turtles objects are then created within a loop with seperate attributes and proceed across the screen at random intervals. If the user guessed the correct turtle to pass the screen first, the user wins. 
 
+# Mail inbox templates
+#### - This program will take a list of names from an external txt file, it will then take a letter template and replace a placeholder name with the the name from the list. To finish, the program will create a new letter txt file in the outbox folder ready to be sent for every name in the list. 
+
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
 
