@@ -44,7 +44,13 @@
 #### - The turtles objects are then created within a loop with seperate attributes and proceed across the screen at random intervals. If the user guessed the correct turtle to pass the screen first, the user wins. 
 
 # Mail inbox templates
-#### - This program will take a list of names from an external txt file, it will then take a letter template and replace a placeholder name with the the name from the list. To finish, the program will create a new letter txt file in the outbox folder ready to be sent for every name in the list. 
+#### - This program will take a list of names from an external txt file, it will then take a letter template and replace a placeholder name with the the name from the list. To finish, the program will create a new letter txt file in the outbox folder ready to be sent for every name in the list.
+
+# QR Creator (qrcode library)
+#### - This program uses the non-standard Python library qrcode. The program has been constructed after reading the library whitenotes. The program will take an input from the user as a string and then place this information into a QR code. The image will then be generated in another folder (generated_codes) for storage. The program loops allowing the user to make many codes quickly. The program will exit out of the loop if the user uses any exit terms such as 'exit' or 'quit'. The below generated code is to my own site.  
+![qr code](https://github.com/PureJD/PythonProjects/blob/main/QRcode/generated_codes/web_page_qr_.png?raw=true)
+
+
 
 ### All of these projects utilise original design and programming code. Please feel free to take any concepts used here and add them to your own projects. 
 
